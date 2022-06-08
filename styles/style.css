@@ -1,0 +1,90 @@
+* {
+    font-family: "Times New Roman",sans-serif,monospace;
+}
+
+h1 , h2 {
+    font-family: monospace;
+    color:#06283D;
+    text-align: center;
+}
+
+
+div {
+    background-color: lightgray;
+    font-size: 24px;
+    width: 350px;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.brown {
+    background-color: burlywood;
+}
+
+ul {
+    list-style-type: circle;
+    width: 250px;
+}
+
+ol{
+    width:350px;
+    margin-left: 40px;
+}
+
+li {
+    border-style: block;
+    color:#06283D;
+    font-weight: bolder;
+}
+
+
+img {
+    height:auto;
+    width: 400px;
+    border: #06283D solid;
+}
+
+.divTable{
+    border: 3px solid;
+    border-color: #06283D;
+    width: 100%;
+    display: table;
+    height: 20%;
+}
+
+.ingredients h1 , .ingredients li{
+    list-style-type: square;
+    text-align: center;
+    color:#DFF6FF;
+}
+
+.ingredients, .food, .instructions{
+    display: table-row;
+    text-align: center;
+    height:auto;
+}
+
+.ingredients{
+    display: table-cell;
+    background-color: #1363DF;
+    color:#DFF6FF;
+    width: 250px;
+}
+
+.food {
+    display: table-cell;
+    background-color: #47B5FF;
+    color:#06283D;
+    text-align: center;
+    border-left: #06283D solid;
+    border-right: #06283D solid;
+}
+
+.instructions{
+    display:table-cell;
+    background-color: #DFF6FF;
+    color:#06283D;
+    text-align: justify;
+}
